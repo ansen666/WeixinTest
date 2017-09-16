@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录之后信息在这里显示"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称:"/>
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_below="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年龄:"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微信登录"/>
+
+    <Button
+        android:id="@+id/btn_share_friend_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享到朋友圈"/>
+
+    <Button
+        android:id="@+id/btn_share_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享给好友"/>
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微信支付"/>
+</LinearLayout>
