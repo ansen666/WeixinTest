@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WeixinTest.iml" filepath="$PROJECT_DIR$/WeixinTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/WeixinTest-app.iml" filepath="$PROJECT_DIR$/app/WeixinTest-app.iml" group="WeixinTest/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/github-WeixinTest.iml" filepath="$PROJECT_DIR$/github-WeixinTest.iml" group="WeixinTest" />
     </modules>
   </component>
 </project>

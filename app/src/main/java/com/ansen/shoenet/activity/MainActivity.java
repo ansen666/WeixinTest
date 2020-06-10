@@ -2,12 +2,13 @@ package com.ansen.shoenet.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.ansen.http.net.HTTPCaller;
 import com.ansen.http.net.RequestDataCallback;
@@ -50,8 +51,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_share_friend).setOnClickListener(this);
         findViewById(R.id.btn_pay).setOnClickListener(this);
 
-        tvNickname= (TextView) findViewById(R.id.tv_nickname);
-        tvAge=(TextView) findViewById(R.id.tv_age);
+        tvNickname= findViewById(R.id.tv_nickname);
+        tvAge=findViewById(R.id.tv_age);
     }
 
     @Override
